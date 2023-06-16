@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family:  'JetBrains Mono', monospace;
+  }
+  
+  header {
+    background-color: #009cdf;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+  }
+
+  .ceritanya-home {
+    font-size: medium;
+    font-weight: bold;
+  }
+  
+  .banner {
+    /* gak pake banner belum ngerti nanti aja baru belajar soalnya */
+    background-image: url('banner.jpg');
+    background-size: cover; 
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .banner-text {
+    text-align: center;
+    color: #333;
+  }
+  
+  .banner-text h1 {
+    font-size: 36px;
+  }
+  
+  .banner-text p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #009cdf;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .about {
+    background-color: #f1f1f1;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .about-text {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .about-text h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .about-text p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+  
+  .portfolio {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .portfolio h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  
+  .portfolio-items {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .portfolio-item {
+    max-width: 300px;
+    text-decoration: none;
+  }
+  
+  .portfolio-item img {
+    max-width: 100%;
+  }
+  
+  .portfolio-item h3 {
+    margin-top: 10px;
+  }
+  
+  .contact {
+    background-color: #f1f1f1;
+    color: #333;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .contact h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  
+  .contact form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .contact input,
+  .contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .contact button {
+    padding: 10px 20px;
+    background-color: #009cdf;
+    color: #f1f1f1;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  footer {
+    background-color: #fff;
+    color: #333;
+    padding: 10px;
+    text-align: center;
+  }
+  
