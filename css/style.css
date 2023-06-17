@@ -29,7 +29,7 @@ body {
     padding: 10px;
   }
 
-  .ceritanya-home {
+  .ceritanya-diklik {
     font-size: medium;
     font-weight: bold;
   }
@@ -89,6 +89,37 @@ body {
     margin-bottom: 30px;
   }
   
+  .certificate {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .certificate h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  
+  .certificate-items {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .certificate-item {
+    max-width: 450px;
+    text-decoration: none;
+  }
+
+  
+  .certificate-item img {
+    max-width: 100%;
+  }
+  
+  .certificate-item h3 {
+    margin-top: 10px;
+  }
+
+  /*  */
   .portfolio {
     padding: 50px 0;
     text-align: center;
@@ -106,9 +137,10 @@ body {
   }
   
   .portfolio-item {
-    max-width: 300px;
+    max-width: 650px;
     text-decoration: none;
   }
+
   
   .portfolio-item img {
     max-width: 100%;
@@ -117,6 +149,7 @@ body {
   .portfolio-item h3 {
     margin-top: 10px;
   }
+
   
   .contact {
     background-color: #f1f1f1;
@@ -156,4 +189,7 @@ body {
     padding: 10px;
     text-align: center;
   }
+
+
+
   
