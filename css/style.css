@@ -182,6 +182,10 @@ body {
     border: none;
     border-radius: 5px;
   }
+
+  .punten {
+    font-size: large;
+  }
   
   footer {
     background-color: #fff;
